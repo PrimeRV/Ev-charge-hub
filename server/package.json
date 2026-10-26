@@ -1,0 +1,19 @@
+{
+  "name": "ev-chargehub-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "watch": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "^2.8.6",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "^9.10.2",
+    "ws": "^8.21.3"
+  }
+}

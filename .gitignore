@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables — NEVER commit real secrets
+.env
+.env.local
+.env.production
+**/.env
+**/.env.local
+**/.env.production
+
+# Build output
+client/dist/
+client/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test / debug scripts (contain hardcoded localhost)
+server/test-ocm.js
+server/testOcpp.js
